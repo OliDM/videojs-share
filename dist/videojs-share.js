@@ -601,6 +601,16 @@ function closest (element, selector) {
 
 var closest_1 = closest;
 
+/**
+ * Delegates event to a selector.
+ *
+ * @param {Element} element
+ * @param {String} selector
+ * @param {String} type
+ * @param {Function} callback
+ * @param {Boolean} useCapture
+ * @return {Object}
+ */
 function _delegate(element, selector, type, callback, useCapture) {
     var listenerFn = listener.apply(this, arguments);
 
@@ -668,6 +678,15 @@ function listener(element, selector, type, callback) {
 
 var delegate_1 = delegate;
 
+/**
+ * Validates all params and calls the right
+ * listener function based on its target type.
+ *
+ * @param {String|HTMLElement|HTMLCollection|NodeList} target
+ * @param {String} type
+ * @param {Function} callback
+ * @return {Object}
+ */
 function listen(target, type, callback) {
     if (!target && !type && !callback) {
         throw new Error('Missing required arguments');
@@ -1563,6 +1582,12 @@ var ShareOverlay = function (_Component) {
 var Plugin = videojs$1.getPlugin('plugin');
 
 // Default options for the plugin.
+/**
+ * An advanced Video.js plugin. For more information on the API
+ *
+ * See: https://blog.videojs.com/feature-spotlight-advanced-plugins/
+ */
+
 var Share = function (_Plugin) {
   inherits(Share, _Plugin);
 

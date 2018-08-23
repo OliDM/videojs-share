@@ -6,7 +6,7 @@ var videojs$1 = _interopDefault(require('video.js'));
 var Clipboard = _interopDefault(require('clipboard'));
 var sharing = require('vanilla-sharing');
 
-var version = "1.1.0";
+var version = "2.0.0";
 
 var url = getUrl();
 
