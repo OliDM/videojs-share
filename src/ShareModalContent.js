@@ -17,6 +17,7 @@ import whatsapp from './icons/whatsapp.svg';
 import viber from './icons/viber.svg';
 
 const icons = {
+  fbShare: fbFeed,
   fbFeed,
   tw,
   reddit,
