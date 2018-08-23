@@ -1408,6 +1408,7 @@ var viber$1 = "<svg width=\"21\" height=\"21\" viewbox=\"0 0 21 21\" xmlns=\"htt
 
 var icons = {
   fbShare: fbFeed$1,
+  fbButton: fbFeed$1,
   fbFeed: fbFeed$1,
   tw: tw$1,
   reddit: reddit$1,

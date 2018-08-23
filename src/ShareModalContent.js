@@ -18,6 +18,7 @@ import viber from './icons/viber.svg';
 
 const icons = {
   fbShare: fbFeed,
+  fbButton: fbFeed,
   fbFeed,
   tw,
   reddit,
