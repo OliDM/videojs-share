@@ -39,7 +39,8 @@
     "watch:test": "rollup -c scripts/test.rollup.config.js -w",
     "prepublishOnly": "npm-run-all test build",
     "prepush": "npm run lint",
-    "precommit": "npm run docs && git add README.md"
+    "precommit": "npm run docs && git add README.md",
+    "prepare": "npm run build"
   },
   "keywords": [
     "videojs",
