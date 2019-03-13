@@ -40,7 +40,7 @@
     "prepublishOnly": "npm-run-all test build",
     "prepush": "npm run lint",
     "precommit": "npm run docs && git add README.md",
-    "prepare": "npm run build"
+    "prepare": "npm-run-all build:css build:css:bannerize build:css:sass build:js build:js:bannerize build:js:rollup-modules build:js:rollup-umd build:js:uglify build:lang"
   },
   "keywords": [
     "videojs",
