@@ -12,7 +12,7 @@ import resolve from 'rollup-plugin-node-resolve';
 
 export default {
   moduleName: 'videojsShareTests',
-  entry: 'test/**/*.test.js',
+  entry: 'test/*.test.js',
   dest: 'test/dist/bundle.js',
   format: 'iife',
   external: [
